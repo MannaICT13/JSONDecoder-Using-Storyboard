@@ -8,7 +8,7 @@
 
 import Foundation
 
-struct Todos {
+struct Todos : Decodable{
     
     
     var userId : Int?

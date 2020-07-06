@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2A30F89024B2638F0082005F /* Bundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A30F88F24B2638F0082005F /* Bundle.swift */; };
 		2A48CCB124B0A0DE00C8CB13 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A48CCB024B0A0DE00C8CB13 /* AppDelegate.swift */; };
 		2A48CCB324B0A0DE00C8CB13 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A48CCB224B0A0DE00C8CB13 /* SceneDelegate.swift */; };
 		2A48CCB524B0A0DE00C8CB13 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A48CCB424B0A0DE00C8CB13 /* ViewController.swift */; };
@@ -15,10 +14,10 @@
 		2A48CCBA24B0A0E300C8CB13 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A48CCB924B0A0E300C8CB13 /* Assets.xcassets */; };
 		2A48CCBD24B0A0E300C8CB13 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A48CCBB24B0A0E300C8CB13 /* LaunchScreen.storyboard */; };
 		2A84EC0724B31B390073F488 /* Todos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A84EC0624B31B390073F488 /* Todos.swift */; };
+		2A84EC0924B31C270073F488 /* JSONHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A84EC0824B31C270073F488 /* JSONHandler.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2A30F88F24B2638F0082005F /* Bundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bundle.swift; sourceTree = "<group>"; };
 		2A48CCAD24B0A0DE00C8CB13 /* JSONDecoder Using Storyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "JSONDecoder Using Storyboard.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A48CCB024B0A0DE00C8CB13 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A48CCB224B0A0DE00C8CB13 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -28,6 +27,7 @@
 		2A48CCBC24B0A0E300C8CB13 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A48CCBE24B0A0E300C8CB13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A84EC0624B31B390073F488 /* Todos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Todos.swift; sourceTree = "<group>"; };
+		2A84EC0824B31C270073F488 /* JSONHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONHandler.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,12 +63,12 @@
 				2A48CCB024B0A0DE00C8CB13 /* AppDelegate.swift */,
 				2A48CCB224B0A0DE00C8CB13 /* SceneDelegate.swift */,
 				2A48CCB424B0A0DE00C8CB13 /* ViewController.swift */,
+				2A84EC0624B31B390073F488 /* Todos.swift */,
+				2A84EC0824B31C270073F488 /* JSONHandler.swift */,
 				2A48CCB624B0A0DE00C8CB13 /* Main.storyboard */,
 				2A48CCB924B0A0E300C8CB13 /* Assets.xcassets */,
 				2A48CCBB24B0A0E300C8CB13 /* LaunchScreen.storyboard */,
 				2A48CCBE24B0A0E300C8CB13 /* Info.plist */,
-				2A30F88F24B2638F0082005F /* Bundle.swift */,
-				2A84EC0624B31B390073F488 /* Todos.swift */,
 			);
 			path = "JSONDecoder Using Storyboard";
 			sourceTree = "<group>";
@@ -145,8 +145,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A48CCB524B0A0DE00C8CB13 /* ViewController.swift in Sources */,
+				2A84EC0924B31C270073F488 /* JSONHandler.swift in Sources */,
 				2A48CCB124B0A0DE00C8CB13 /* AppDelegate.swift in Sources */,
-				2A30F89024B2638F0082005F /* Bundle.swift in Sources */,
 				2A84EC0724B31B390073F488 /* Todos.swift in Sources */,
 				2A48CCB324B0A0DE00C8CB13 /* SceneDelegate.swift in Sources */,
 			);

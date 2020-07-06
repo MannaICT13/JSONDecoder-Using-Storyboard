@@ -17,6 +17,7 @@ class ViewController: UIViewController {
     //MARK: Initializers
     override func viewDidLoad() {
         super.viewDidLoad()
+        JSONHandler.jsonHandlerInstance.getJsonData()
         
      
     }
